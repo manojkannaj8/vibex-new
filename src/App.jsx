@@ -3,8 +3,8 @@ import './App.css';
 import { createClient } from '@supabase/supabase-js';
 
 // ⚠️ PASTE YOUR SUPABASE KEYS HERE
-const supabaseUrl = 'url';
-const supabaseKey = 'key';
+const supabaseUrl = 'https://gicdnsjbjgguvqmkldmd.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdpY2Ruc2piamdndXZxbWtsZG1kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA0NDU4MDQsImV4cCI6MjA4NjAyMTgwNH0.to-UhSotsQQMPDte9r6broE1SRVX1zfm7C1CvV-v6HE';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const App = () => {
