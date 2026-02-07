@@ -1,4 +1,4 @@
-# Vibex
+# Vibex-new PS
 
 A modern React-based notice board application built with Vite, featuring real-time updates through Supabase. Create, filter, and manage notices with an intuitive user interface.
 
